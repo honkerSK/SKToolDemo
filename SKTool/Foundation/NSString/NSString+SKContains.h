@@ -17,6 +17,7 @@
  *  @return 是否包含中文
  */
 - (BOOL)sk_isContainChinese;
+
 /**
  *  @summary  是否包含空格
  *
@@ -32,6 +33,7 @@
 - (NSString *)sk_makeUnicodeToString;
 
 - (BOOL)sk_containsCharacterSet:(NSCharacterSet *)set;
+
 /**
  *  @summary 是否包含字符串
  *
@@ -40,6 +42,7 @@
  *  @return YES, 包含;
  */
 - (BOOL)sk_containsaString:(NSString *)string;
+
 /**
  *  @summary 获取字符数量
  */

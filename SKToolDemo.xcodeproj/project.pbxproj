@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E102983121E70EF300E86C19 /* NSDictionary+SKLog.m in Sources */ = {isa = PBXBuildFile; fileRef = E102983021E70EF300E86C19 /* NSDictionary+SKLog.m */; };
+		E102983421E70FA200E86C19 /* NSArray+SKLog.m in Sources */ = {isa = PBXBuildFile; fileRef = E102983321E70FA200E86C19 /* NSArray+SKLog.m */; };
+		E102985C21E755B000E86C19 /* NSString+SKUnicode.m in Sources */ = {isa = PBXBuildFile; fileRef = E102985B21E755B000E86C19 /* NSString+SKUnicode.m */; };
 		E12A897B21E46E6100B06CCC /* NSObject+SKEasyCopy.m in Sources */ = {isa = PBXBuildFile; fileRef = E12A897A21E46E6100B06CCC /* NSObject+SKEasyCopy.m */; };
 		E12A897E21E46E9E00B06CCC /* NSObject+SKAppInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = E12A897D21E46E9E00B06CCC /* NSObject+SKAppInfo.m */; };
 		E12A898121E46EE200B06CCC /* NSObject+SKBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = E12A898021E46EE200B06CCC /* NSObject+SKBlock.m */; };
@@ -69,6 +72,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E102982F21E70EF300E86C19 /* NSDictionary+SKLog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+SKLog.h"; sourceTree = "<group>"; };
+		E102983021E70EF300E86C19 /* NSDictionary+SKLog.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+SKLog.m"; sourceTree = "<group>"; };
+		E102983221E70FA200E86C19 /* NSArray+SKLog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSArray+SKLog.h"; sourceTree = "<group>"; };
+		E102983321E70FA200E86C19 /* NSArray+SKLog.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSArray+SKLog.m"; sourceTree = "<group>"; };
+		E102985A21E755B000E86C19 /* NSString+SKUnicode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+SKUnicode.h"; sourceTree = "<group>"; };
+		E102985B21E755B000E86C19 /* NSString+SKUnicode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+SKUnicode.m"; sourceTree = "<group>"; };
 		E12A897921E46E6100B06CCC /* NSObject+SKEasyCopy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+SKEasyCopy.h"; sourceTree = "<group>"; };
 		E12A897A21E46E6100B06CCC /* NSObject+SKEasyCopy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SKEasyCopy.m"; sourceTree = "<group>"; };
 		E12A897C21E46E9E00B06CCC /* NSObject+SKAppInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+SKAppInfo.h"; sourceTree = "<group>"; };
@@ -319,6 +328,8 @@
 				E1BD102421E363FE00272188 /* NSArray+SKBlock.m */,
 				E1BD102621E365E100272188 /* NSArray+SKSafeAccess.h */,
 				E1BD102721E365E100272188 /* NSArray+SKSafeAccess.m */,
+				E102983221E70FA200E86C19 /* NSArray+SKLog.h */,
+				E102983321E70FA200E86C19 /* NSArray+SKLog.m */,
 			);
 			path = NSArray;
 			sourceTree = "<group>";
@@ -355,6 +366,8 @@
 				E1BD103621E369ED00272188 /* NSDictionary+SKURL.m */,
 				E1BD103821E3726700272188 /* NSDictionary+SKXML.h */,
 				E1BD103921E3726700272188 /* NSDictionary+SKXML.m */,
+				E102982F21E70EF300E86C19 /* NSDictionary+SKLog.h */,
+				E102983021E70EF300E86C19 /* NSDictionary+SKLog.m */,
 			);
 			path = NSDictionary;
 			sourceTree = "<group>";
@@ -384,8 +397,6 @@
 				E12A89B421E4854D00B06CCC /* NSString+SKEncrypt.m */,
 				E12A89BD21E4879400B06CCC /* NSString+SKBase64.h */,
 				E12A89BE21E4879400B06CCC /* NSString+SKBase64.m */,
-				E12A89C021E4885200B06CCC /* NSString+SKContains.h */,
-				E12A89C121E4885200B06CCC /* NSString+SKContains.m */,
 				E12A89C321E488A200B06CCC /* NSString+SKMIME.h */,
 				E12A89C421E488A200B06CCC /* NSString+SKMIME.m */,
 				E12A89C621E488E100B06CCC /* NSString+SKNormalRegex.h */,
@@ -400,6 +411,10 @@
 				E12A89D721E48D1300B06CCC /* NSString+SKStringPages.m */,
 				E12A89D921E48D6A00B06CCC /* NSString+SKHTML.h */,
 				E12A89DA21E48D6A00B06CCC /* NSString+SKHTML.m */,
+				E102985A21E755B000E86C19 /* NSString+SKUnicode.h */,
+				E102985B21E755B000E86C19 /* NSString+SKUnicode.m */,
+				E12A89C021E4885200B06CCC /* NSString+SKContains.h */,
+				E12A89C121E4885200B06CCC /* NSString+SKContains.m */,
 			);
 			path = NSString;
 			sourceTree = "<group>";
@@ -580,6 +595,7 @@
 				E12A89B921E4861700B06CCC /* NSData+SKBase64.m in Sources */,
 				E12A89DB21E48D6A00B06CCC /* NSString+SKHTML.m in Sources */,
 				E12A898721E46FE900B06CCC /* NSObject+SKAddProperty.m in Sources */,
+				E102983421E70FA200E86C19 /* NSArray+SKLog.m in Sources */,
 				E1BD103A21E3726700272188 /* NSDictionary+SKXML.m in Sources */,
 				E12A89BC21E4866E00B06CCC /* NSData+SKEncrypt.m in Sources */,
 				E12A89E121E4929F00B06CCC /* NSData+SKHash.m in Sources */,
@@ -587,6 +603,7 @@
 				E12A899721E47A2500B06CCC /* NSObject+SKKVOBlock.m in Sources */,
 				E1BD0FFC21E3543200272188 /* AppDelegate.m in Sources */,
 				E12A89A021E47F4E00B06CCC /* NSString+SKRemoveEmoji.m in Sources */,
+				E102985C21E755B000E86C19 /* NSString+SKUnicode.m in Sources */,
 				E12A89D821E48D1300B06CCC /* NSString+SKStringPages.m in Sources */,
 				E12A89AC21E4822B00B06CCC /* NSString+SKHash.m in Sources */,
 				E1BD105721E3A8D600272188 /* NSObject+SKReflection.m in Sources */,
@@ -594,6 +611,7 @@
 				E1BD105421E3A7B600272188 /* NSFileManager+SKPaths.m in Sources */,
 				E12A89D521E48CB600B06CCC /* NSString+SKMatcher.m in Sources */,
 				E12A89DE21E4917100B06CCC /* NSObject+SKBlockTimer.m in Sources */,
+				E102983121E70EF300E86C19 /* NSDictionary+SKLog.m in Sources */,
 				E12A89A321E4808400B06CCC /* NSString+SKTrims.m in Sources */,
 				E12A89AF21E482A500B06CCC /* NSString+SKUUID.m in Sources */,
 				E1BD102821E365E100272188 /* NSArray+SKSafeAccess.m in Sources */,
