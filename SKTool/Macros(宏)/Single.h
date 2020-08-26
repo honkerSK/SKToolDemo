@@ -1,16 +1,16 @@
 
 /*
- 单例
- .h
+ 自定义单例 使用
+ .h文件
  #import <Foundation/Foundation.h>
  #import "Single.h"
  @interface SKTool : NSObject<NSCopying,NSMutableCopying>
  SingleH(SKTool)
  @end
  
- .m
+ .m文件
  #import "SKTool.h"
- @implementation XMGTool
+ @implementation SKTool
  SingleM(SKTool)
  @end
  
